@@ -1,0 +1,26 @@
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\bin\Debug\Integer Mark VI.exe.config
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\bin\Debug\Integer Mark VI.exe
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\bin\Debug\Integer Mark VI.pdb
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.csproj.AssemblyReference.cache
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Login.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Properties.Resources.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.csproj.GenerateResource.cache
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.csproj.CoreCompileInputs.cache
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.csproj.CopyComplete
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.exe
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer Mark VI.pdb
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Menu_Principal.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Agenda.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Registrar_Pacientes.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Seguimiento_de_Pacientes.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Lista_de_Productos.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Registro_Productos.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.MessageBox.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.FormasHijo.UserControlBlanco.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.FormasHijo.UserControlDays.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Registro_de_Consultas.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Venta_de_Productos.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Compra_de_productos.resources
+C:\Users\Charles Aryon\source\repos\Integer Mark VI\Integer Mark VI\obj\Debug\Integer_Mark_VI.Reportes.resources

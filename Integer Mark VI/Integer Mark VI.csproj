@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A9D2C4E-3C35-44B5-B0AC-4F22471D6849}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Integer_Mark_VI</RootNamespace>
+    <AssemblyName>Integer Mark VI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Clases de Diseño\CComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clases\Clases de Diseño\CMessageBox.cs" />
+    <Compile Include="DBConection.cs" />
+    <Compile Include="FormasHijo\Agenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Agenda.Designer.cs">
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Registrar Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Registrar Consultas.Designer.cs">
+      <DependentUpon>Registrar Consultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Lista de Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Lista de Productos.Designer.cs">
+      <DependentUpon>Lista de Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Clases de Diseño\MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clases\Clases de Diseño\MessageBox.Designer.cs">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBlanco.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBlanco.Designer.cs">
+      <DependentUpon>UserControlBlanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlDays.Designer.cs">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas Principales\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas Principales\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas Principales\Menu Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas Principales\Menu Principal.Designer.cs">
+      <DependentUpon>Menu Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormasHijo\Registrar Pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Registrar Pacientes.Designer.cs">
+      <DependentUpon>Registrar Pacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Registro Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Registro Productos.Designer.cs">
+      <DependentUpon>Registro Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Venta de Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Venta de Productos.Designer.cs">
+      <DependentUpon>Venta de Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Compra de Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Compra de Productos.Designer.cs">
+      <DependentUpon>Compra de Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormasHijo\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Clases de Diseño\RoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Seguimiento de Pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormasHijo\Seguimiento de Pacientes.Designer.cs">
+      <DependentUpon>Seguimiento de Pacientes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormasHijo\Agenda.resx">
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Registrar Consultas.resx">
+      <DependentUpon>Registrar Consultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Lista de Productos.resx">
+      <DependentUpon>Lista de Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clases\Clases de Diseño\MessageBox.resx">
+      <DependentUpon>MessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBlanco.resx">
+      <DependentUpon>UserControlBlanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlDays.resx">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas Principales\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas Principales\Menu Principal.resx">
+      <DependentUpon>Menu Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormasHijo\Registrar Pacientes.resx">
+      <DependentUpon>Registrar Pacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Seguimiento de Pacientes.resx">
+      <DependentUpon>Seguimiento de Pacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Registro Productos.resx">
+      <DependentUpon>Registro Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Venta de Productos.resx">
+      <DependentUpon>Venta de Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Compra de Productos.resx">
+      <DependentUpon>Compra de Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormasHijo\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntegerLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseIcon%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximisar Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar ventanita icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1650910937659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
